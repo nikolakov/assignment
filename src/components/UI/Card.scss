@@ -1,0 +1,23 @@
+.custom-card {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+
+  .cardContent {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .organizationInfo {
+      display: flex;
+      text-align: start;
+
+      .avatarImage {
+        max-width: 100px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
